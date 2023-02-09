@@ -16,8 +16,8 @@ phases:
      - mv buildspec-2.yml build/
      - mv appspec.yml build/
 
-
 artifacts:
   files:
    - '**/*'
   base-directory: 'build'
+  
