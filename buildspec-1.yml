@@ -13,7 +13,8 @@ phases:
 
 artifacts:
   files:
-   - build/*
-   - buildspec-2.yml
-   - appspec.yml
-   - scripts/**/*
+   - './**/*'
+   - '../buildspec-2.yml'
+   - '../appspec.yml'
+   - '../scripts/**/*'
+  base-directory: 'build'
