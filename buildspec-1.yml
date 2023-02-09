@@ -10,11 +10,14 @@ phases:
   build:
     commands:
      - npm run build
+  post_build:
+    commands:
+     - mv scripts/ build/
+     - mv buildspec-2.yml build/
+     - mv appspec.yml build/
+
 
 artifacts:
   files:
-   - './**/*'
-   - '../buildspec-2.yml'
-   - '../appspec.yml'
-   - '../scripts/**/*'
+   - '**/*'
   base-directory: 'build'
