@@ -16,4 +16,4 @@ artifacts:
    - build/*
    - buildspec-2.yml
    - appspec.yml
-   - scripts/*
+   - scripts/**/*
