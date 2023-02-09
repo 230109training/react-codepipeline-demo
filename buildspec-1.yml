@@ -17,3 +17,4 @@ artifacts:
    - buildspec-2.yml
    - appspec.yml
    - scripts/**/*
+  discard-paths: yes
