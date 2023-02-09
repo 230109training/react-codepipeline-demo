@@ -13,8 +13,7 @@ phases:
 
 artifacts:
   files:
-   - build/**/*
+   - build/*
    - buildspec-2.yml
    - appspec.yml
-   - scripts/**/*
-  discard-paths: yes
+   - scripts/*
